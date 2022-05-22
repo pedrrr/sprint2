@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+main {padding-right: 100px;
+padding-left: 100px;}
+
+body {background-color: #1f262d;
+margin: 20px;
+margin: auto;}
+
+.corpo {background-color: #14181c;}
+
+.menu {padding-top: 10px;
+padding-bottom: 50px;
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1;}
+
+.avatar {width: 55px;
+height: auto;
+border-radius: 50%;
+align-items: center;
+     display: block;
+      margin-left: auto;
+      margin-right: auto;
+       position: absolute;
+        right: 1;
+         left: 0;
+         margin-top: 13px}
+.avatar:hover {opacity: 0.3;}
+
+img.cards {border-radius: 2%;
+     display: block;
+      margin-left: auto;
+       margin-right: auto;
+         border: solid 5px transparent;
+         max-width: 100%;
+         height: auto;
+        }
+
+#cardsmb {width: 80% !important;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+}
+
+.cards:hover {border-color: #e1c451;}
+
+img.logo {align-items: center;
+     display: block;
+      margin-left: auto;
+      margin-right: auto;
+       position: absolute;
+        right: 0;
+         left: 0;}
+.logo:hover {opacity: 0.3;}         
+         
+img.dm {align-items: center;
+     display: block;
+      margin-left: auto;
+       margin-right: auto;
+       position: absolute;
+       right: 0;
+        left: 1;
+    width: 75px;}
+@media only screen and (min-width: 1614px)
+{img.dm {margin-right: 180px;}
+.avatar {margin-left: 180px;}
+.dm:hover {opacity: 0.3;}}
+
+p.p1 {font-size: 32px;
+     color: #e1c451;
+      text-align: center;
+       margin-top: 120px;
+        margin-bottom: 60px;
+        font-family: 'Roboto', sans-serif;
+    font-weight: 400;}
+
+
+    @media screen and (max-width:600px) {
+        .avatar {width: 35px;
+        margin-left: 20px;}
+        img.cards {display: none;}
+        img.dm {width: 55px;}
+        img.logo {width: 70px;}
+        p.p1 {font-size: 16px;}
+        .profilepic {width: 75px;
+        height: auto;}
+        .profilename {font-size: 15px !important; margin-left: 89px !important;}
+        .btn {margin-top: 0px !important; width: 80px !important; height: auto !important; font-size: 11px;}
+        .mb-3 {width: 175px; height: auto; font-size: 80%; margin-left: 9px !important;}
+        .comentarios {margin-right: 100px !important;}
+        img.logogm {max-width: 150px !important; height: auto; margin-top: 40px;}
+        img.partygm {width: 35px; height: auto; border-radius: 50%; margin-top: 8px; margin-bottom: 0px;}
+    
+    }
+    @media screen and (min-width:601px) {
+        .carouselmb {display:none}
+        
+    }
+    
+    .profilepic {max-width: 110px;
+    height: auto;
+    display: flex;
+    flex: wrap;
+    float: left;
+    margin-top: 150px;
+    border-radius: 50%;}
+    
+    .profilename {color: #b4babf; font-size: 22px; margin-top: 150px; margin-left: 130px; font-weight: bold; margin-right: 0px;}
+    .profilename:hover {color: #fffff7;}
+    .btn {float: right; margin-top: 180px;}
+    .btn:hover {background-color: #e1c451; color: #1f262d;}
+    .profilegm {margin-top: 30px;}
+    .mb-3 {z-index: 0; margin-top: 30px; margin-left: 50px;}
+    .card-title {font-weight: bold; color: #b4babf}
+    .card-text {font-weight: 400; color:#b4babf;}
+    
+    
+    .detailBox {
+        width:320px;
+        border:1px solid #1f262d;
+        margin:50px;
+        border-radius: 2%;
+    }
+    .titleBox {
+        background-color:#b4babf;
+        padding:10px;
+    }
+    .titleBox label{
+      color:#1f262d;
+      margin:0;
+      display:inline-block;
+      border-radius: 2%;
+    }
+    
+    .commentBox {
+        padding:10px;
+        border-top:1px dotted #b4babf;
+    }
+    .commentBox .form-group:first-child, .actionBox .form-group:first-child {
+        width:80%;
+    }
+    .commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+        width:18%;
+    }
+    .actionBox .form-group * {
+        width:100%;
+    }
+    .taskDescription {
+        margin-top:10px 0;
+    }
+    .commentList {
+        padding:0;
+        list-style:none;
+        max-height:200px;
+        overflow:auto;
+    }
+    .commentList li {
+        margin:0;
+        margin-top:10px;
+    }
+    .commentList li > div {
+        display:table-cell;
+    }
+    .commenterImage {
+        width:30px;
+        margin-right:5px;
+        height:100%;
+        float:left;
+    }
+    .commenterImage img {
+        width:100%;
+        border-radius:50%;
+    }
+    .commentText p {
+        margin:0;
+    }
+    .sub-text {
+        color:#b4babf;
+        font-family:verdana;
+        font-size:11px;
+    }
+    .actionBox {
+        border-top:1px dotted #b4babf;
+        padding:10px;
+    }
+    
+    .titleBox {color: #b4babf;}
+    p.commentText {color: #b4babf !important;}
+    .btn:hover {background-color: #e1c451 !important;}
+    #btncomentario {margin: 0px}
+    
+    img.logogm {max-width: 400px; 
+        height: auto;
+        display: block;
+        margin-left: auto;
+         margin-right: auto;
+        margin-bottom: 0px;}
+        
+    img.partygm {max-width: 55px; 
+        height: auto; 
+        display: block; 
+        border-radius: 50%;
+    margin-top: 8px;
+margin-bottom: 0px;
+}
+p.partygmn {color: #b4babf;}
+p.partygmn:hover {color: #fffff7;}
+    
